@@ -1,0 +1,11 @@
+{
+	"name": "server",
+	"type": "module",
+	"version": "0.0.0",
+	"scripts": {
+		"dev": "bun run --hot src/index.ts",
+		"start": "bun run src/index.ts"
+	},
+	"dependencies": { "hono": "^4.4.11" },
+	"devDependencies": { "@types/bun": "^1.1.6" }
+}
